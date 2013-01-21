@@ -53,3 +53,5 @@ gen/
 # PDT-specific
 .buildpath
 /README~
+*.java~
+*.*~
