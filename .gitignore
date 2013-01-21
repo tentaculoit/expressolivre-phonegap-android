@@ -1,20 +1,55 @@
+*.pydevproject
+.project
+.metadata
+.settings
+.classpath
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+logs
+project/project
+project/target
+target
+tmp
+.history
+dist
+/.idea
+/*.iml
+/.settings
+/.project
+/.classpath
+*.log
+*.keystore
+*.orig
+seed.txt
+map.txt
+
+# proguard
+proguard/
 # built application files
 *.apk
 *.ap_
-
 # files for the dex VM
 *.dex
-
 # Java class files
 *.class
-
 # generated files
 bin/
 gen/
-
 # Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
-.classpath
-.project
+# External tool builders
+.externalToolBuilders/
+# Locally stored "Eclipse launch configurations"
+*.launch
+# CDT-specific
+.cproject
+# PDT-specific
+.buildpath
+/README~
