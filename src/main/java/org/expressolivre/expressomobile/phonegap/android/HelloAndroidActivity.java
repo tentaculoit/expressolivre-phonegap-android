@@ -3,6 +3,7 @@ package org.expressolivre.expressomobile.phonegap.android;
 import org.apache.cordova.DroidGap;
 import android.os.Bundle;
 import android.util.Log;
+import android.content.res.Configuration;
 
 public class HelloAndroidActivity extends DroidGap {
 
@@ -20,6 +21,11 @@ public class HelloAndroidActivity extends DroidGap {
         super.onCreate(savedInstanceState);	
         super.loadUrl("file:///android_asset/www/index.html");
         setIntegerProperty("loadUrlTimeoutValue", 60000);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+	super.onConfigurationChanged(newConfig);
     }
 
 }
